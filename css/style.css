@@ -97,23 +97,25 @@ body {
 
 }
 
+#aboutme{
+  display: block;
+  height: 80%;
+  margin-top: 50%;
+
+  background-color: rgba(224, 224, 224, 0.795);
+  backdrop-filter: blur(5px);
+}
+
 #project_page {
   display: block;
   height: auto;
-  margin-top: 50%;
+  margin-top: auto;
 
   background-color: rgba(0, 0, 0, 0.61);
   backdrop-filter: blur(5px);
 
 }
 
-#aboutme{
-  border: 5px solid;
-  margin: auto;
-  width: 50%;
-
-
-}
 
 #project_preview {
   border: 5px solid;
