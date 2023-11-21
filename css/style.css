@@ -99,11 +99,25 @@ body {
 
 #aboutme{
   display: block;
-  height: 80%;
-  margin-top: 50%;
+  height: 90%;
+  margin-top: 60%;
 
   background-color: rgba(224, 224, 224, 0.795);
   backdrop-filter: blur(5px);
+
+}
+
+#aboutme-text{
+display: block;
+
+ width: 900px;
+ top: 100px;
+
+ margin-left: auto;
+ margin-right: auto;
+ padding-top: 30px;
+
+
 }
 
 #project_page {
@@ -142,6 +156,52 @@ body {
   
 }
 
+h3{
+   
+padding-top: 30px;
+
+  font-size: 50px;
+
+  text-align: center;
+
+}
+
+#heading-tertiary{
+
+  display: block;
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #0984e3;
+
+  width: 900px;
+  
+  margin-bottom: 6px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+
+}
+
+#technologies_icons{
+
+  line-height: 1.7;
+  padding-left: 215px;
+   
+}
+
+#technologies_icon
+{
+  display: inline-flex;
+  width: 2em;
+  height: 2em;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+  overflow: hidden;
+  vertical-align: middle;
+
+
+}
 
 h2 {
   text-transform: uppercase;
