@@ -3,7 +3,7 @@
   padding: 0;
   border: 0;
   font-size: 100%;
-  font: inherit;
+  /* font: inherit; */
   vertical-align: baseline;
 }
 
@@ -97,7 +97,7 @@ body {
 
 }
 
-#aboutme{
+#aboutme {
   display: block;
   height: 90%;
   margin-top: 50%;
@@ -107,66 +107,20 @@ body {
 
 }
 
-#aboutme-text{
-display: block;
-
- width: 900px;
- top: 100px;
-
- margin-left: auto;
- margin-right: auto;
- padding-top: 30px;
-
-
-}
-
-#project_page {
+#aboutme-text {
   display: block;
-  height: auto;
-  margin-top: auto;
 
-  background-color: rgba(0, 0, 0, 0.61);
-  backdrop-filter: blur(5px);
+  width: 900px;
+  top: 100px;
 
-}
-
-
-#project_preview {
-  border: 5px solid;
-  margin: auto;
-  width: 50%;
-}
-
-#project_text {
-  width: 400px;
-  margin-left: 25%;
-
-}
-
-.center_image {
-  display: block;
   margin-left: auto;
   margin-right: auto;
-  width: 50%;
-}
+  padding-top: 30px;
 
-.profile_picture {
-  width: 8%;
-  border-radius: 50%;
-  
-}
-
-h3{
-   
-padding-top: 30px;
-
-  font-size: 50px;
-
-  text-align: center;
 
 }
 
-#heading-tertiary{
+#heading-tertiary {
 
   display: block;
   font-size: 1.25rem;
@@ -174,7 +128,7 @@ padding-top: 30px;
   color: #0984e3;
 
   width: 900px;
-  
+
   margin-bottom: 6px;
   margin-left: auto;
   margin-right: auto;
@@ -182,22 +136,21 @@ padding-top: 30px;
 
 }
 
-#technologies_icons{
+#technologies_icons {
 
   width: 900px;
-  
+
   margin-bottom: 6px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 10px;
-  
+
   line-height: 1.7;
   padding-left: 2px;
-   
+
 }
 
-#technologies_icon
-{
+#technologies_icon {
   display: inline-flex;
   width: 2em;
   height: 2em;
@@ -209,6 +162,74 @@ padding-top: 30px;
 
 
 }
+
+#project_page {
+  display: block;
+  height: auto;
+  margin-top: auto;
+  padding-top: 50px;
+
+  background-color: rgba(0, 0, 0, 0.61);
+  backdrop-filter: blur(5px);
+
+}
+
+
+#project_preview {
+
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+
+  width: 70%;
+
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#text-container-for-preview {
+  flex: 50%;
+
+  padding: 25px;
+
+
+}
+
+#notation-project_text {
+  padding-left: 40px;
+
+}
+
+
+#project_text {}
+
+.preview-image {
+  /* 
+  margin-left: auto;
+  margin-right: auto; */
+  padding: 30px;
+
+  flex: 50%;
+
+}
+
+.profile_picture {
+  width: 8%;
+  border-radius: 50%;
+
+}
+
+h3 {
+
+  padding-top: 30px;
+
+  font-size: 50px;
+
+  text-align: center;
+
+}
+
+
 
 h2 {
   text-transform: uppercase;
@@ -233,6 +254,8 @@ p {
   font-size: 24px;
   font-family: 'Roboto', sans-serif;
 }
+
+
 
 @media only screen and (max-width: 1000px) {
   h1 {
